@@ -1,0 +1,925 @@
+/* Custom Font */
+@font-face {
+    font-family: customFont;
+    src: url(https://rawcdn.githack.com/irrvlo/irrvlo.github.io/1cb7fdc534cb3cc9ca4ab69c2522ec1392aa8629/CSS/irrvlo/Fonts/TruenoRg.otf);
+}
+
+* {
+    font-family: customFont !important;
+}
+
+/* Credit */
+#app > div.interface.text-2 > div.background > div.bg-radial::after {	
+    font-size: 1rem;
+    content: "CSS made by Lappy ";
+    padding: 0.6rem !important;
+    color: #ffffff;
+    position: fixed;
+    top: 58.5rem;
+    left: 0rem;
+    z-index: 10;
+    pointer-events: auto;
+    backdrop-filter: blur(3px) !important;
+    border-bottom: none !important;
+    box-shadow: none !important;
+    border-top: none !important;
+    background: #10101000 !important;
+    border-radius: 0px !important;
+}
+
+:root {
+    /* Colors */
+    --blue: #004ff8; 
+    --blue-dark: #0010f7;
+    --hover-blue: #0a009759;
+    --teal: #10fafb;
+    --teal-dark: #0dbbbc;
+    --teal-dark-2: #05686878;
+    --dark: #101010;
+    --dark-o: #101010ba;
+    --primary-1: #004ff8;
+    
+      /* Misc */
+  --pattern: url(https://cdn.discordapp.com/attachments/925539919949078528/1104681087470415936/exclusivepattern.png) repeat;
+  --logo: url(https://cdn.discordapp.com/attachments/925539919949078528/1104682424425791588/KirkaLogo.png);
+}
+
+/* AD Block */
+#ad-bottom,
+#ad-left {
+    width: 0px !important;
+}
+
+/* Logo */
+#logo {
+    left: 39.7% !important;
+    top: 30% !important;
+    
+}
+
+.list-cont,
+.champions-list{
+    border-left: .25rem solid var(--blue) !important;
+}
+
+.progress-line{
+    background: #ffffff08 !important;
+    box-shadow: none !important;
+}
+
+div.cards > div.awards-label,
+div.cards > div.card-list,
+#view > div > div > div.content > div > div.news > div > div > div.info > div > div.description > div.list.text-2,
+#view > div > div > div.content > div > div.news > div > div > div.info > div > div.description > div.list.text-1.hello-text {
+background: transparent !important;
+background-color: transparent !important;
+}
+
+/* Text */
+#settings-and-socicons > div:nth-child(2) > div > div.discord-name,
+#settings-and-socicons > div:nth-child(2) > div > div:nth-child(2),
+#play > div > div.select-region,
+#play > div > div.play-content-up > div,
+#play > div > div.play-content-up > label > span,
+.levels,
+.level,
+.stat-name,
+.progress-level-value,
+.top-name,
+.lvl-leader,
+.awards-span,
+.label-primary,
+.active,
+.tab:hover,
+.list-labels,
+.nav:hover,
+.label,
+.level-label,
+.active-tab{
+    color: var(--blue) !important
+}
+.clan-tag,
+.reset-time,
+.champions-league,
+.champions-scores,
+.all-scores-label,
+.header,
+.available-rooms,
+.online,
+.map-name,
+#play > button,
+.limit{
+    color: var(--teal) !important
+}
+
+/* Hover */
+.card-cont:hover{
+    background: var(--hover-blue) !important;
+}
+
+/* Glow */
+#auth-user > div > div.card-cont.user-info > div.progress-lvl > div.progress-line > div,
+#view > div > div > div.content > div > div > div.content > div.top-medium > div.top > div.card.progress > div.progress-line.secondary > div{
+     border-radius: 0px !important;
+     background-color: var(--teal) !important;
+     box-shadow: 0px 0px 20px 5px var(--teal);
+}
+
+/* General */
+.crosshair-static {
+    visibility: visible !important;
+    position: absolute !important;
+    display: flex !important;
+}
+
+.alert-default {
+    background: linear-gradient(262.54deg, #004ff8 9.46%, #10fafb85 100.16%) !important;
+    border: transparent !important;
+    backdrop-filter: blur(5px);
+    border-radius: 10px !important;
+}
+
+.bottom,
+.center,
+.top {
+    background: transparent !important;
+}
+
+.searching-game {
+    position: absolute;
+    top: -4vh !important;
+    width: 100vw !important;
+    z-index: -0 !important;
+    padding-right: 50px !important;
+    padding-left: 50px !important;
+    padding-top: 475px !important;
+    padding-bottom: 500px !important;
+    backdrop-filter: blur(15px) !important;
+    background: #ffffff2b !important;
+}
+
+#app > div.game-interface > div.container-pre-end > div.bg {
+    z-index: -0 !important;
+    backdrop-filter: blur(15px) !important;
+    background: #ffffff2b !important;
+}
+
+.button {
+    font-family: customFont !important;
+    text-shadow: 0 0 0 #0000 !important;
+    -webkit-text-stroke: 0px white !important;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #51515126 !important;
+}
+
+
+.nav.active {
+    background-color: transparent !important;
+}
+
+
+.tab.active,
+.active-tab,
+.active {
+    background-color: #5353534a !important;
+    color: #ffffff !important;
+    border: transparent !important;
+}
+
+.tab.end,
+.tab,
+.tabs {
+    color: #fff9 !important;
+}
+
+.friend,
+.exit,
+.exit:after,
+.item-content,
+.item,
+.background {
+    background-color: transparent !important;
+    --hover-color: transparent !important;
+    --top: transparent !important;
+    --bottom: transparent !important;
+    border-bottom: transparent !important;
+    border: transparent !important;
+    box-shadow: 0 0 0 transparent !important;
+}
+
+.tab-bar,
+.tab:hover,
+.top-bar {
+    background: transparent !important;
+    background-color: transparent !important;
+    border: transparent !important;
+    color: #ffffff !important;
+    box-shadow: 0 0 0 transparent !important;
+}
+
+.avatar {
+    border: solid 4px var(--pink) !important;
+}
+
+
+hr,
+#app > div.end-modal > div.content > div.right-cont-content > div.next-round.text-2 > div.progress-line.progress-line.secondary > div,
+#app > div.end-modal > div.content > div.chat > div.chat.chat-position > div.messages.messages-cont,
+#app > div.loading-scene > div:nth-child(1),
+#app > div.loading-scene > div:nth-child(7),
+#app > div.loading-scene > div.content > div.players.text-1.players-1 > div,
+#app > div.loading-scene > div.content > div.players.text-1.players-2 > div,
+div.player-list > div,
+.left-cont,
+#app > div.game-interface > div.container-pre-end > div.left-cont > div,
+.center-cont,
+#app > div.game-interface > div.container-pre-end > div.center-cont > div,
+.right-cont,
+#app > div.game-interface > div.container-pre-end > div.right-cont > div,
+.kill-bar-item,
+.user-card,
+.timer.bg.text-1,
+.kill.bg.text-1,
+.death.bg.text-1,
+#app > div.game-interface > div.desktop-game-interface > div.chat.chat-position > div.messages.messages-cont,
+.bg-level,
+.select-regions-cont,
+.select-mods-cont,
+.container-card,
+.tab,
+#view > div > div > div.content > div > div.left > div.bottom,
+.limit,
+.delete,
+.head-text,
+.add-friends,
+.time-left,
+.rewards,
+.left.active,
+.join,
+.server,
+.messages-cont.small,
+.box,
+.live-streams,
+.card-list,
+.loader,
+.list-container,
+#view > div > div > div.content > div > div.clans > div.my-clan > div.card-cont,
+.reset-time,
+.card,
+.clans,
+.tabs,
+.close,
+.name-page,
+.home,
+.container {
+    background: linear-gradient(103.28deg, #004ff8 7.06%, #10fafb70 90.75%) !important;
+    background-color: transparent !important;
+    border: transparent !important;
+    box-shadow: 0 0 0 transparent !important;
+    backdrop-filter: blur(10px) !important;
+}
+
+/* Chat */
+.name,
+.lvl {
+    color: #ffffffba !important;
+}
+
+
+/* Main Menu */
+.level-progress {
+    background: #3535359c !important;
+}
+
+#app > div.end-modal,
+#app > div.interface.text-2 > div.background {
+background: url(https://cdn.discordapp.com/attachments/925539919949078528/1104684306263183421/AdobeStock_260078608.jpeg) no-repeat center center fixed !important;
+background-size: cover !important;
+}
+
+#app > div.interface.text-2 > img{
+    content: var(--logo) !important;
+    width: 400px !important;
+}
+
+#app > div.interface.text-2 > div.background > div.bg-radial{
+    background: radial-gradient(74.74% 74.74% at 51.12% 51.68%,#0010f7 0,#10fafb30 100%)
+}
+
+#app > div.interface.text-2 > div.background > div.pattern-bg{
+    background: var(--pattern);
+    animation: loopPattern-data-v-50a88834 80s linear infinite;
+    opacity: 1 
+}
+
+/* Animations */
+#app > div.interface.text-2 > img {
+    animation-name: floating;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+  }
+  @keyframes floating {
+    from {
+      transform: translate(0, 0px);
+    }
+    65% {
+      transform: translate(0, 15px);
+    }
+    to {
+      transform: translate(0, -0px);
+    }
+  }
+  @keyframes loopPattern-data-v-50a88834 {
+    0% {
+      background-position: 0 0;
+    }
+    to {
+      background-position: 0 100vh;
+    }
+  }
+  @keyframes loopPattern-data-v-50a88834 {
+    0% {
+      background-position: 0 0;
+    }
+    to {
+      background-position: 0 100vh;
+    }
+  }
+  
+  #clientJoinButton,
+  .circle,
+  .instruction,
+  .list-weapons,
+  .info-key-cont,
+  .border,
+  .borders,
+  #play-btn > div.triangle,
+  #left-icons > div.icon-btn.text-1.HUB > div > svg,
+  #icon-store > div > svg,
+  #left-icons > div.icon-btn.text-1.SERVERS > div > svg,
+  #left-icons > div.icon-btn.text-1.QUESTS > div > svg,
+  #left-icons > div.icon-btn.text-1.FRIENDS > div > svg,
+  #left-icons > div.icon-btn.text-1.INVENTORY > div > svg,
+  #left-icons > div.icon-btn.text-1.MAP > div > svg,
+  .bg-light,
+  .background-leaders,
+  .triangle,
+  .rules,
+  .rules-label,
+  .rules-icon,
+  .top-logo,
+  .bottom-logo {
+      display: none !important;
+  }
+  
+  #view > div > div > div.content > div > div > div.preview.text-2 > div > div.bottom > div > div.description {
+      background: transparent !important;
+  }
+
+  .rules-icon {
+    color: transparent !important;
+    background: transparent !important;
+}
+
+.text-icon {
+color: var(--teal) !important;    
+}
+
+#left-icons {
+   top: 90vh !important;
+    flex-direction: row !important;
+    backdrop-filter: blur(5px) !important;
+    background: #00000061 !important;
+}
+
+#app > div.end-modal > div.bottom {
+box-shadow: 0 -0.25rem 0 #1d2b5700 !important;
+}
+
+#left-icons > div.icon-btn.text-1.FRIENDS,
+#left-icons > div.icon-btn.text-1.INVENTORY,
+#left-icons > div.icon-btn.text-1.HUB,
+#icon-store,
+#left-icons > div.icon-btn.text-1.SERVERS,
+#left-icons > div.icon-btn.text-1.QUESTS,
+#left-icons > div.icon-btn.text-1.MAP {
+   padding: 2vw !important;
+    width: 14.251vw !important;
+    border: none !important;
+    border-bottom: none !important;
+    border-top: none !important;
+    background: #004ff8 !important;
+    backdrop-filter: blur(5px) !important;
+}
+
+#play-btn {
+    transform: none;
+   left: -34.5vw;
+    top: -8.0vh;
+    height: 1vh;
+    width: 28.5vw;
+    background-color: #10fafb45 !important;
+    --hover-color: #0a0a0a00 !important;
+    --top: #0a0a0a00 !important;
+    --bottom: #0a0a0a00 !important;
+}
+
+#play-btn > div.borders {
+    display: none !important;
+}
+
+#play > div > div.play-content-up > label > span::before,
+#play-btn::before {
+    display: none !important;
+}
+
+ #play > div > div.play-content-up {
+ left: -41.2vw !important;
+    position: absolute;
+}
+
+#play > div > div.play-content-up > div {
+    left: 15.8vw;
+      position: absolute;
+      top: -11vh;
+      width: 13.4vw;
+  }
+  
+  #play > div > div.select-region {
+      left: -4.5vw !important;
+      top: -1.4vh;
+      position: absolute;
+  }
+  
+   #play > div > div.play-content-up > label > span {
+      position: absolute;
+      top: -1.5vh;
+      right: 24vw;
+  }
+  
+  #auth-user > div > div.card-cont.avatar-info > div.username {
+      position: absolute !important;
+   left: 82.64vw !important;
+      top: 7.8vh !important;
+  }
+  
+  #auth-user > div > div.card-cont.avatar-info > div.avatar.avatar {
+      position: absolute !important;
+      top: 1vh !important;
+      left: 83vw !important;
+  }
+  
+  #auth-user > div > div.card-cont.avatar-info {
+  padding-left: 97.3vw;
+      padding-right: 2.1vw;
+      background: #0000 !important;
+      height: 10.5vh !important;
+      border: transparent !important;
+  }
+  
+  #auth-user > div > div.card-cont.user-info {
+      right: 0%;
+      position: absolute;
+      background: transparent !important;
+      border: transparent !important;
+  }
+  
+  #left-interface > div.moneys {
+      position: absolute;
+      left: -4.4vw;
+      top: 2vh;
+  }
+
+  #left-interface > div.moneys > div:nth-child(1),
+#left-interface > div.moneys > div.card-cont.money.diamonds {
+    background: #004ff8 !important;
+    backdrop-filter: blur(5px) !important;
+    border: transparent !important;
+    border-radius: 20px !important;
+}
+
+#auth-user {
+    z-index: 0 !important;
+}
+
+#right-interface {
+    z-index: 5 !important;
+}
+
+#settings-and-socicons {
+    position: absolute !important;
+    left: -750px !important;
+    top: 20px !important;
+}
+
+#dailyQuests {
+    position: absolute !important;
+    top: 114px !important;
+    height: 1080px !important;
+    background: #0000 !important;
+    border: transparent !important;
+    width: 350px !important;
+}
+
+#team-section {
+    background: #0000 !important;
+    top: 143px !important;
+    left: -784.5px !important;
+    padding-top: 150px !important;
+    padding-bottom: 500px !important;
+}
+
+#team-section > div.player {
+    width: 350px !important;
+}
+
+.nickname,
+.lvl,
+.level-label,
+.level-cont,
+.reward,
+.lvl-leader,
+.level-value,
+.level,
+.levels {
+    color: var(--teal) !important;
+    background: transparent !important;
+    border: transparent !important;
+}
+
+#play > div > div.select-region,
+#play > div > div.play-content-up > div {
+    background: transparent !important;
+    border: transparent !important;
+}
+
+#view > div > div > div.content > div > div.content > div.bg-progress > div.levels > div > div.progress > div,
+#view > div > div > div.content > div > div.content > div.bg-progress > div.levels > div > div.progress,
+.progress-helper {
+    background: var(--teal) !important;
+    box-shadow: inset 0 0 0.612rem 0.25rem #0000 !important;
+}
+
+.progress {
+    color: var(--teal) !important;
+    }
+    
+    div.right > div.progress-line.progress-line > div {
+    background-color: var(--teal) !important;
+    }
+    
+    .quest {
+        background: linear-gradient(103.28deg, #004ff8 7.06%, #10fafb70 90.75%) !important;
+    }
+    
+    .tip {
+        background-color: transparent !important;
+    }
+    
+    .progress-line {
+        background-color: #2b2b2b8c !important;
+    }
+    
+    .nickname {
+        color: white !important;
+    }
+
+    .clan,
+.label,
+.label-primary,
+.clan-tag {
+    color: #004ff8 !important;
+}
+
+.input .items div:hover {
+    background-color: #c3c3c336 !important;
+}
+
+.input,
+.items,
+.card-cont.settings.card-1,
+.card-cont.soc-group {
+    background: transparent !important;
+    border: transparent !important;
+}
+
+#view > div > div > div.content > div > div.quests > div.subjects > .subject {
+    width: 1000px !important;
+}
+
+
+#dailyQuests > div.subjects > .subject {
+    width: 350px !important;
+}
+
+/* MODE SELECTION */
+.custom-checkbox > span:before {
+    background-color: rgba(108, 221, 255, .5) !important;
+    border: transparent !important;
+}
+
+.select-mods-cont {
+    right: -173px !important;
+    width: 621px !important;
+    top: -607px !important;
+    height: 552px !important;
+}
+
+.select-mods-maps {
+    height: 360px!important;
+}
+
+.select-regions-cont {
+    right: 305px !important;
+    top: -119px !important;
+}
+
+/* HUB */
+.awards-span,
+.number-player {
+    color: var(--blue) !important;
+}
+
+.subjects,
+.info-awards {
+    background-color: #00000036 !important;
+    border: transparent !important;
+}
+
+.list,
+.champions-list,
+.top-items,
+.list-cont.list-players {
+    background: linear-gradient(103.28deg, #004ff8 7.06%, #10fafb70 90.75%) !important;
+}
+
+.subject {
+    width: 277px !important;
+    backdrop-filter: blur(5px) !important;
+    background: linear-gradient(103.28deg, #004ff8 7.06%, #10fafb70 90.75%) !important;
+}
+
+.rar-skin {
+    position: absolute !important;
+    top: 52px !important;
+    left: 135px !important;
+    height: 100% !important;
+    border-radius: 5px !important;
+    transform: rotate(90deg) !important;
+    width: 0.4499999999999993rem !important;
+}
+
+.title,
+.changelog-item,
+.head {
+    background: transparent !important;
+    border: transparent !important;
+}
+
+#app > div.interface.text-2 > div.vm--container > div.vm--modal > div > div > div.content.text-2 > button,
+#view > div > div > div.content > div > div > div.preview.text-2 > div > div.bottom > button,
+.btn-invite,
+.right-btn,
+#view > div > div > div.content > div > div.content > div.subjects > div > button,
+button.join-my-game-btn.rectangle,
+.btn,
+.button.buy-skin-weapon,
+.button.buy-skin-weapon:after,
+div.hover-btns-group > button:after,
+div.hover-btns-group > button {
+    background-color: #4242422e !important;
+    --top: transparent !important;
+    --bottom: transparent !important;
+    border-bottom: transparent !important;
+    border: transparent !important;
+    box-shadow: 0 0 0 transparent !important;
+    border-radius: 2px !important;
+}
+
+.hover-btns-group:hover {
+    z-index: 3 !important;
+}
+
+#app > div.interface.text-2 > div.vm--container > div.vm--modal > div > div > div.content.text-2 > button,
+#view > div > div > div.content > div > div > div.preview.text-2 > div > div.bottom > button,
+.btn-invite,
+.right-btn,
+#view > div > div > div.content > div > div.content > div.subjects > div > button,
+button.join-my-game-btn.rectangle,
+.btn,
+.button.buy-skin-weapon,
+.button.buy-skin-weapon:hover,
+.hover-btns-group:hover,
+.hover-btns-group > button:hover {
+    background: #ffffff2e !important;
+    backdrop-filter: blur(10px) !important;
+    --hover-color: #ffffff1f !important;
+}
+
+/* STORE */
+#carousel {
+    width: 116% !important;
+}
+
+#carouselUniques {
+    width: 200% !important;
+}
+
+.price {
+    background-color: transparent !important;
+    border: transparent !important;
+}
+
+#carouselUniques > div.slider-container.swiper-container-horizontal > div.slider-touch > div > div > div > div.store-skins > div.weapons > .weapon {
+    background: radial-gradient(39.78% 145.24% at 54.34% 55.56%, #171717 0, #202020 100%) !important;
+    border: transparent !important;
+}
+
+.grad-weapon.epic {
+    z-index: 2 !important;
+}
+
+.grad-weapon {
+    width: 0.938rem !important;
+    transform: rotate(90deg) !important;
+    top: 60px !important;
+    position: absolute !important;
+    left: 165px !important;
+    height: 100% !important;
+    border-radius: 20px !important;
+}
+
+/* SERVERS */
+button.join-my-game-btn.rectangle,
+button.join {
+    --hover-color: transparent !important;
+    --top: transparent !important;
+    --bottom: transparent !important;
+}
+
+.available-rooms,
+.online,
+.mod-name {
+    color: var(--teal) !important;
+}
+
+/* QUESTS */
+
+#dailyQuests div.quest > div.left {
+    width: 10px !important;
+    height: 142px !important;
+    right: 166px !important;
+    border-radius: 20px !important;
+    top: -63px !important;
+    position: absolute !important;
+    transform: rotate(90deg) !important;
+    display: flex;
+}
+
+div.quest > .left {
+    width: 15px !important;
+    min-height: 100% !important;
+    right: 450px !important;
+    height: 770px !important;
+    border-radius: 20px !important;
+    top: -376px !important;
+    position: absolute !important;
+    transform: rotate(90deg) !important;
+    display: flex;
+}
+
+/* FRIENDS */
+.no-requests {
+    color: #bfbfbf !important;
+}
+
+/* INVENTORY */
+.gun {
+    background: linear-gradient(103.28deg, #00319c 7.06%, #10fafb59 90.75%) !important;
+}
+
+#view > div > div > div.content > div > div.left {
+    background: linear-gradient(103.28deg, #00319c 7.06%, #10fafb70 90.75%) !important;
+}
+
+#view > div > div > div.content > div.inventory {
+    display: flex;
+    height: 94vh !important;
+    max-height: 61rem !important;
+    width: 119rem !important;
+}
+
+#view > div > div > div.content > div > div.left,
+#view > div > div > div.content > div > div.left > div.bottom {
+    width: 38% !important;
+}
+
+#view > div > div > div.content > div > div.content {
+    width: 60.75% !important;
+}
+
+#view > div > div > div.content > div > div.content > div.subjects > div > button {
+    z-index: 3 !important;
+}
+
+/* LOADING */
+#app > div.loading-scene > div.content.team > div.players.text-1.players-2 {
+    right: 525px !important;
+}
+
+.logo {
+    left: 700px !important;
+}
+
+.loading {
+    right: 50px !important;
+}
+
+.player {
+    background: transparent !important;
+    border-radius: 10px !important;
+}
+
+/* PAUSE MENU */
+.right-container {
+    background: linear-gradient(103.28deg, #00319c 7.06%, #10fafb70 90.75%) !important;
+    backdrop-filter: blur(5px) !important;
+    border-radius: 50px !important;
+}
+
+.red,
+.blue {
+    border-radius: 5px !important;
+}
+
+.gun {
+    border: transparent !important;
+}
+
+/* HUD */
+.hp {
+    position: absolute !important;
+    top: -30px !important;
+    right: -720px !important;
+}
+
+.cont-endurance {
+    top: -50px !important;
+    width: 100% !important;
+    position: absolute !important;
+    right: -720px !important;
+}
+
+.endurance-progress {
+    background: #fff !important;
+}
+
+.cont-endurance,
+.cont-hp,
+.hp-title {
+    background: #00319c !important;
+}
+
+#app > div.game-interface > div.desktop-game-interface > div.chat.chat-position {
+    left: 0;
+    bottom: -0.6999999999999993rem;
+}
+
+.JOIN {
+    color: #5b8c40 !important;
+}
+
+.LEAVE {
+    color: #b52f2f !important;
+}
+
+.tab-info {
+    background: #0051ff !important;
+}
+
+#app > div.game-interface > div.desktop-game-interface > div.tab-info > div.players > div.list,
+#app > div.game-interface > div.desktop-game-interface > div.tab-info > div.players > div > div.player-list.player-left-cont > div.list,
+#app > div.game-interface > div.desktop-game-interface > div.tab-info > div.players > div > div.player-list.player-right-cont > div {
+    background: transparent !important;
+}
+
+.list {
+    color: white !important;
+}
+
+.user-card {
+    border-radius: 25px !important;
+}
+
+/* thx nizzQ */
+.desktop-game-interface #WMNn {
+    transform: scale(0);
+    transition-duration: 0.25s !important;
+}
+
+.desktop-game-interface #WMNn:focus {
+    transform: scale(1);
+}
